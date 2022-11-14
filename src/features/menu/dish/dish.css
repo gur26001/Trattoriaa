@@ -1,0 +1,35 @@
+.dish-div{
+    width: 30%;
+    padding: 2rem;
+    border: 1px solid #e1e1e1;
+    background-color: white;
+}
+
+.dish-title{
+   font-size: 2rem; 
+   font-family: 'Poppins', sans-serif;
+}
+
+.dish-img{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 1rem auto;
+}
+
+.dish-description{
+    font-size: 1rem;
+    line-height: 2;
+    text-align: justify;
+    padding: 2rem;
+ 
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+@media only screen and (max-width: 800px){
+    .dish-div{
+        width: 80%;
+    }
+}
